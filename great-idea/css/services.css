@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* start here*/
 body{
-	width: 1200px;
+	width: 65%;
 }
 .container{
 	max-width: 77%;
@@ -78,10 +78,11 @@ body{
     top: 10px;
     align-items: center;
     width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 a{
-	margin:30px;
 	color: #D3D3D3;
 	text-decoration: none;
 }
@@ -154,4 +155,14 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 80px;
+}
+@media (max-width: 600px) {
+    .main-content div{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .navigation {
+        width: 60%;
+    }
 }
